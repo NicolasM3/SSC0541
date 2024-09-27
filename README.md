@@ -7,10 +7,10 @@
 
 ### IoBound
 
-  cd ioBound
+  cd ioBound &
   go run io_bound.go
 
 ### CpuBound
 
-  cd cpuBound
+  cd cpuBound &
   go run cmd/main/main.go
