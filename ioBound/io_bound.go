@@ -169,7 +169,7 @@ func splitFile(inputPath string, numParts int) ([]part, error) {
 }
 
 func main() {
-	err := r8("ioBound/measurements100.txt", os.Stdout)
+	err := r8("measurements.txt", os.Stdout)
 	if err != nil {
 		panic(err)
 	}
